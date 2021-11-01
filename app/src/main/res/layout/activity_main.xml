@@ -46,4 +46,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_run_parallel2" />
 
+    <Button
+        android:id="@+id/button_run_parallel_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Run parallel and retry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_run_parallel3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,6 +8,9 @@ interface Endpoint {
 
     @GET("/test")
     fun callEndpoint(@Query("chunkNumber") chunkNumber: Int) : Single<ChunkResponse>
+
+    @GET("/test2")
+    fun callEndpoint2(@Query("chunkNumber") chunkNumber: Int) : Single<ChunkResponse>
 }
 
 data class ChunkResponse(val chunkNumber: Int)
